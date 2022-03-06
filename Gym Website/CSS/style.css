@@ -1,0 +1,95 @@
+body{
+    background-image: url(../img/back.jpg);
+    background-size: cover;
+    color: white;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.left{
+    /* border: 2px solid white; */
+    width: 20%;
+    margin: 5px;
+    display: inline-block;
+    position: absolute;
+    top: 15px;
+    left: 70px;
+}
+.left img{
+    filter: invert(100%);
+    width: 65px;
+}
+.left div{
+    display: inline-block;
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+}
+.right{
+    /* border: 2px solid white; */
+    width: 20%;
+    margin: 5px;
+    display: inline-block;
+    position: absolute;
+    top: 18px;
+    right: 15px;
+}
+.center{
+    /* border: 2px solid white; */
+    width: 45%;
+    margin: 25px auto;
+    padding: 3px;
+}
+.center li{
+    display: inline-block;
+    margin: auto 20px;
+}
+.center li a{
+    text-decoration: none;
+    font-size: 23px;
+    color: white;
+}
+.center li a:hover, .center li a.active{
+    color: grey;
+    text-decoration: underline;
+}
+button{
+    margin: 15px;
+    font-size: 18px;
+    font-family: 'Baloo Bhai 2', cursive;
+    background-color: black;
+    color: white;
+    padding: 7px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+button:hover{
+    color: grey;
+}
+.container{
+    border: 5px solid white;
+    border-radius: 16px;
+    display: block;
+    width: 451px;
+    padding: 15px 51px;
+    margin: 53px 75px;
+}
+.container h2{
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    padding: 15px;
+}
+.box input{
+    font-size: 25px;
+    font-family: 'Baloo Bhai 2', cursive;
+    margin: 20px auto;
+    display: block;
+    width: 399px;
+    text-align: center;
+    border-radius: 15px;
+    font-weight: bold;
+}
+.check{
+    font-size: 25px;
+    margin: 0px 141px;
+    padding: 15px;
+    display: inline-block;
+}
